@@ -299,8 +299,10 @@ nav {
   background-color: white;
 }
 .nav__card--body .nature:hover {
-  -webkit-animation: opacityloader 2s infinite forwards;
-          animation: opacityloader 2s infinite forwards;
+  -webkit-animation: opacityloader 2s;
+          animation: opacityloader 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 .nav__card--body .colored {
   color: transparent;
