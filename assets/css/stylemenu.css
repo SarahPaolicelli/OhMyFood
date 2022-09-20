@@ -420,6 +420,9 @@ footer li {
   .repas {
     width: 40%;
   }
+  .checked {
+    margin-top: 1rem;
+  }
   header {
     align-items: center;
   }
